@@ -118,7 +118,7 @@ export default {
   }
   &__wrapper {
     display: flex;
-    height: 400px;
+    height: 356px;
     width: 75%;
     margin: 0 auto;
     margin: 20px auto;
@@ -129,18 +129,22 @@ export default {
     &:nth-of-type(even) {
       & .movies__info.chess-sorted {
         order: 1;
+      
       }
       & .movies__info {
         order: 1;
+       
       }
     }
     & .movies__info.left-sorted {
       order: 1;
+     
     }
   }
   &__info {
     width: 60%;
     padding: 20px;
+    
     h1 {
       margin: 10px 0 0 0;
     }

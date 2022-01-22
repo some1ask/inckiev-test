@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <Movie/>
+    <Form/>
   </div>
 </template>
 
 <script>
 
-import Movie from './components/Movie.vue'
+// import Movie from './components/Movie.vue'
+import Form from './components/Form.vue'
 export default {
   name: 'App',
   components: {
-    Movie
+    
+    Form
   }
 }
 </script>
