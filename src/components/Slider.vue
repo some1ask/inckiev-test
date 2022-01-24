@@ -89,7 +89,7 @@ export default {
 /* различные продолжительности и динамику.       */
 .wrapper {
   max-width: 100%;
-  height: 70vh;
+height: 628px;
   overflow: hidden;
   position: relative;
 }
